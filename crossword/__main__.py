@@ -1,6 +1,7 @@
 import vecIO
+import neuralNet as nn
 import numpy as np
 
 vecIO.load_vectors
 
-print(vecIO.get_vectors(','))
+print(nn.process_clue(', .'))
